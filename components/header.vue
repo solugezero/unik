@@ -21,7 +21,7 @@
 
   &_inner {
     display: flex;
-    width: 100%;
+    width: calc(100% - 40px);
     height: 100%;
     align-items: center;
     color: #fff;

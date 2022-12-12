@@ -24,17 +24,21 @@ const porps = defineProps({
 .item {
   display: flex;
   width: 100%;
-  height: 40px;
+  height: auto;
   align-items: center;
-  padding: 0px 20px;
+  padding: 20px 20px;
   flex-direction: row;
   gap: 10px;
   background: rgb(230, 230, 230);
   border-radius: 12px;
+  flex-wrap: wrap;
 
   &__title {
     font-size: 16px;
     font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   a {

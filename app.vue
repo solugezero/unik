@@ -1,7 +1,7 @@
 <template>
-    <NuxtLayout>
-      <Header></Header>
-    <NuxtPage class="page" />
+  <NuxtLayout>
+    <Header></Header>
+    <NuxtPage />
   </NuxtLayout>
 </template>
 
@@ -15,9 +15,5 @@
 a {
   color: #000;
   text-decoration: none;
-}
-
-.page {
-  padding: 20px;
 }
 </style>
