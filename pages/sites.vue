@@ -285,6 +285,7 @@ const data = [
 .sites-page {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 
   &__title {
     font-size: 20px;
